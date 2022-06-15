@@ -1,5 +1,5 @@
 var Reader = require("./Reader");
-var Writer =require("./Writer");
+var Writer = require("./Writer");
 var Processor = require("./Processor");
 var Table = require("./Table");
 const HtmlParser = require("./HtmlParser");
