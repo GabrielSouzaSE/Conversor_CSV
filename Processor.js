@@ -1,6 +1,6 @@
-class Processor{
-    static Process(data){
-        var divisao = data.split("\r\n");
+class Processor {
+    static Process(data) {
+        var divisao = data.split("\n");
         var rows = [];
 
         divisao.forEach(row => {
