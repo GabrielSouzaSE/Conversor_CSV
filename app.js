@@ -9,7 +9,7 @@ var leitor = new Reader();
 var escritor = new Writer();
 
 async function main() {
-    var dados = await leitor.Read("./ListPokemon2.csv");
+    var dados = await leitor.Read("./ListPokemon.csv");
     var dadosProcessados = Processor.Process(dados);
 
     var usuarios = new Table(dadosProcessados);
