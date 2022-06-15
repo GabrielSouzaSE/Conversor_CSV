@@ -5,9 +5,7 @@ var leitor = new Reader();
 
 async function main() {
     var dados = await leitor.Read("./ListPokemon.csv");
-    //console.log(dados);
-
-    Processor.Process(dados);
+    var dadosProcessados = Processor.Process(dados);
 }
 
 main();
