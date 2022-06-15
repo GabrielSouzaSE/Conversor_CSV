@@ -6,11 +6,11 @@ class Table {
         this.rows = arr;
     }
 
-    get RowCount(){
+    get RowCount() {
         return this.rows.length;
     }
 
-    get ColumnCount(){
+    get ColumnCount() {
         return this.header.length;
     }
 }
